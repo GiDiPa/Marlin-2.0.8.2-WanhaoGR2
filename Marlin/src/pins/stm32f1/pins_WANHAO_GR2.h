@@ -32,13 +32,9 @@
 #define X_MIN_PIN                          PE6  //DIAG->R15
 #define Y_MIN_PIN                          PE4  //DIAG->R18
 #define Z_MIN_PIN                          PE2  //DIAG->R21
+#define Z_MAX_PIN                          PE1
 
 
-#if ENABLED(FILAMENT_RUNOUT_SENSOR)
-  #define FIL_RUNOUT_PIN                     PE1
-#else
-  #define Z_MAX_PIN                          PE1
-#endif
 
 //
 // Steppers
