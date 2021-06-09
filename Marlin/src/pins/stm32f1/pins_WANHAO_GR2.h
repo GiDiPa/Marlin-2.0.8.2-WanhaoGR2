@@ -76,7 +76,7 @@
 #define FAN2_PIN                            PA12    // M_FAN Motherboard Fan
 #define FAN3_PIN                            PC7     // P_FAN Hepa Fan
 
-
+#define SERVO0_PIN                          PD14  // BLTOUCH
 //
 // Temperature Sensors
 //
